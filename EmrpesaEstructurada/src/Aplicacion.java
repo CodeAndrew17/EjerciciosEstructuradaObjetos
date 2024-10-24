@@ -67,5 +67,3 @@ posicion=emp;
 }
 System.out.println("Nombre:"+nombres.get(posicion)+" Cargo:"+cargos.
 get(posicion)+" Salario:"+salarios.get(posicion));
-}
-}
