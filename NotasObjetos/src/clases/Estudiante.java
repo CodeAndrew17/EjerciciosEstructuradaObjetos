@@ -24,7 +24,7 @@ public class Estudiante {
         this.nota1 = nota1;
     }
 
-    public void asignarNotaParcial2(float nota1) {
+    public void asignarNotaParcial2(float nota2) {
         this.nota2 = nota2;
     }
 
@@ -44,7 +44,7 @@ public class Estudiante {
         notafinal = (nota1 + nota2) / 2;
     }
 
-    public Float obtenerNotaFinal() {
+    public float obtenerNotaFinal() {
         return notafinal;
     }
 
