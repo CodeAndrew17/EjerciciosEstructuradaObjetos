@@ -1,14 +1,10 @@
 import java.util.ArrayList;
 
-public class Factura extends Comprobante {
+public class Factura extends Comprobante{
 
     private ArrayList<Producto> mProducto = new ArrayList<>();
     private float total;
     private Cliente mCliente;
-
-    public Factura() {
-        // Constructor vacío
-    }
 
     
 
@@ -37,7 +33,7 @@ public class Factura extends Comprobante {
     }
 
     public Factura(char t, int n, Fecha f, Cliente cli) {
-        super(t, n, f); // Llama al constructor de la clase base
+        super(t,n,f);// Llama al constructor de la clase base
         this.mCliente = cli; // Asignación directa para evitar métodos sobrescribibles
     }
 

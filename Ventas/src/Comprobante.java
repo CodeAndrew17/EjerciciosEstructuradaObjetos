@@ -1,12 +1,10 @@
+
 public class Comprobante {
 
     private char tipo;
     private int numero;
     private Fecha fecha;
 
-    // Constructor vacío
-    public Comprobante() {
-    }
 
     // Constructor con parámetros
     public Comprobante(char t, int n, Fecha f) {
